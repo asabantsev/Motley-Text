@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
-                Text("Марафон ").foregroundColor(.gray) + Text("по SwiftUI")
+                Text("Марафон ").foregroundColor(.gray) + Text("по SwiftUI ") +
                 Text("«Отцовский пинок»")
                     .font(.title)
                     .fontWeight(.bold)
